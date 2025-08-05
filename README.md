@@ -29,7 +29,8 @@ pyCPP/
 
 1. **Install dependencies:**
     ```sh
-    pip install pybind11 notebook
+    pip install pybind11
+    pip install cmake
     ```
 
 2. **Build the extension:**
