@@ -4,7 +4,7 @@ A simple example of exposing C++ functions to Python using [pybind11](https://gi
 
 ## Tools Used
 
-- **C++ (MSVC or Clang)** — For writing and compiling the native extension.
+- **[C++ (MSVC Compiler)](https://visualstudio.microsoft.com/downloads/)** — For writing and compiling the native extension.
 - **[pybind11](https://github.com/pybind/pybind11)** — For creating Python bindings for C++ code.
 - **[CMake](https://cmake.org/)** — For building the C++ extension module.
 - **[Python 3.12](https://www.python.org/)** — For running and importing the extension.
@@ -29,7 +29,8 @@ pyCPP/
 
 1. **Install dependencies:**
     ```sh
-    pip install pybind11 notebook
+    pip install pybind11
+    pip install cmake
     ```
 
 2. **Build the extension:**
