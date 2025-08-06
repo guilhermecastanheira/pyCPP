@@ -4,7 +4,7 @@ A simple example of exposing C++ functions to Python using [pybind11](https://gi
 
 ## Tools Used
 
-- **C++ (MSVC or Clang)** — For writing and compiling the native extension.
+- **[C++ (MSVC Compiler)](https://github.com/bycloudai/InstallVSBuildToolsWindows)** — For writing and compiling the native extension.
 - **[pybind11](https://github.com/pybind/pybind11)** — For creating Python bindings for C++ code.
 - **[CMake](https://cmake.org/)** — For building the C++ extension module.
 - **[Python 3.12](https://www.python.org/)** — For running and importing the extension.
@@ -57,5 +57,5 @@ pyCPP/
 ## Notes
 
 - Delete the `build` path before create the new one. 
-- Make sure your Python version matches the `.pyd` file (e.g., Python 3.12 → `python312.lib`).
+- Make sure your Python version matches the `.pyd` file (e.g., Python 3.12 → `python312.lib`). If not, change the `target_link_libraries(module PRIVATE python312)` in CMake to your `pythonXXX.lib`.  
 - If you use a different compiler or Python version, adjust the CMake configuration accordingly.
