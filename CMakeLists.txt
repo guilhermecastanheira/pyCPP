@@ -23,5 +23,5 @@ link_directories(${PYTHON_LIB_DIR})
 
 add_library(module MODULE src/module.cpp)
 target_include_directories(module PRIVATE ${PYBIND11_INCLUDES})
-target_link_libraries(module PRIVATE python312)
+target_link_libraries(module PRIVATE python311)
 set_target_properties(module PROPERTIES PREFIX "" SUFFIX ".pyd")

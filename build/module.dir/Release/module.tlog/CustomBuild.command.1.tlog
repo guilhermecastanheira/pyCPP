@@ -1,6 +1,6 @@
 ^C:\USERS\USER\DOCUMENTS\PYCPP\CMAKELISTS.TXT
 setlocal
-C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/User/Documents/pyCPP -BC:/Users/User/Documents/pyCPP/build --check-stamp-file C:/Users/User/Documents/pyCPP/build/CMakeFiles/generate.stamp
+C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/User/Documents/pyCPP -BC:/Users/User/Documents/pyCPP/build --check-stamp-file C:/Users/User/Documents/pyCPP/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

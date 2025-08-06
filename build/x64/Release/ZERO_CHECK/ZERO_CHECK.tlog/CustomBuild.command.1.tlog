@@ -1,6 +1,6 @@
 ^C:\USERS\USER\DOCUMENTS\PYCPP\BUILD\CMAKEFILES\75A616309BB9FE22F88C1FB042932F06\GENERATE.STAMP.RULE
 setlocal
-C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/User/Documents/pyCPP -BC:/Users/User/Documents/pyCPP/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Documents/pyCPP/build/pyCPP.sln
+C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/User/Documents/pyCPP -BC:/Users/User/Documents/pyCPP/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Documents/pyCPP/build/pyCPP.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

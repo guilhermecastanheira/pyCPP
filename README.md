@@ -29,7 +29,8 @@ pyCPP/
 
 1. **Install dependencies:**
     ```sh
-    pip install pybind11 notebook
+    pip install pybind11
+    pip install cmake
     ```
 
 2. **Build the extension:**
@@ -57,5 +58,10 @@ pyCPP/
 ## Notes
 
 - Delete the `build` path before create the new one. 
+<<<<<<< HEAD
 - Make sure your Python version matches the `.pyd` file (e.g., Python 3.12 → `python312.lib`). If not, change the `target_link_libraries(module PRIVATE python312)` in CMake to your `pythonXXX.lib`.  
 - If you use a different compiler or Python version, adjust the CMake configuration accordingly.
+=======
+- Make sure your Python version matches the `.pyd` file (e.g., Python 3.12 → `python312.lib`).
+- If you use a different compiler or Python version, adjust the CMake configuration accordingly.
+>>>>>>> e0707d9775c0f98fa51aa0ddfe5139d0d135924a
